@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject>WhaleWars.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="WW_Background.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="WW_Background.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NetCoreAudio" Version="1.5.0" />
+  </ItemGroup>
+
+</Project>
