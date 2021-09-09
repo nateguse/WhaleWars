@@ -51,7 +51,7 @@ namespace WhaleWars
         
         static void Welcome()
         {
-            Typewrite("A Group-One Production.\n\t\t\t\t\t\t\t\t A Chartreuse Dysentery Amoeba Game.\n", TYPESPEED);
+            Typewrite("A Nate Guse.\n\t\t\t\t\t\t\t\t A Chartreuse Dysentery Amoeba Game.\n", TYPESPEED);
         }
 
       
